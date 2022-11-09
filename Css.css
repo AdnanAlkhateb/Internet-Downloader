@@ -1,0 +1,121 @@
+.root{
+    -fx-font-size: 13px;
+    -fx-background-color: lightblue;
+    -fx-color: white;
+    -fx-text-align: center;
+    -fx-font-family: Dialog;
+}
+.Button{
+    -fx-background-color: #fff8fd;
+    -fx-font-size: 15px;
+    -fx-color: white;
+    -fx-font-family: Georgia;
+
+
+}
+
+.Button:hover {
+    -fx-background-color: #3498DB; /* Green */
+    -fx-color: white;
+}
+
+
+.TextField
+{
+    -fx-list-style-type: none;
+    -fx-margin: 0;
+    -fx-padding: 0;
+    -fx-width: 25%;
+    -fx-background-color: #f1f1f1;
+}
+
+.gridPane
+{
+
+    -fx-background-color: lightblue;
+    -fx-color: white;
+    -fx-text-align: center;
+    -fx-font-family: Sitka_Text;
+    -fx-font-size: 6 px;
+
+}
+.table{
+    -fx-background-color: #e63636;
+    -fx-color: #2fff37;
+    -fx-text-align: center;
+    -fx-font-family: Sitka_Text;
+    -fx-font-size: 6 px;
+}
+
+.Label{
+
+    -fx-background-color: #76e61b;
+    -fx-color: #f500ff;
+    -fx-text-align: center;
+    -fx-font-family: Sitka_Text;
+    -fx-font-size: 6 px;
+}
+
+/*
+.tabPane{
+    -fx-background-color: transparent;
+}
+
+.tabPane:focused{
+    -fx-background-color: transparent;
+}
+
+ Spaltenk?pfe
+    Struktur column-header-background -> column-header 
+
+.tabPane .column-header-background{
+    -fx-background-color: linear-gradient(#fff8fd 0%, #5da9e6 100%);
+}
+
+.tabPane .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #96b1e6;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+
+/*
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #3230e6;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+
+/*
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background,
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button,
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+*/
